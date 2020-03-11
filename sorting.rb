@@ -1,5 +1,5 @@
 def bubble_sort(arr)
-    loop {
+    loop do
         status = false
         (arr.length-1).times do |i|
             if arr[i] > arr[i+1]
@@ -8,13 +8,13 @@ def bubble_sort(arr)
             end
         end   
         break if not status
-    }   
+    end   
    arr
 end
 
 
 def bubble_sort_by(arr)
-    loop {
+    loop do
         status = false
         (arr.length-1).times do |i|
             if yield(arr[i], arr[i+1]) > 0
@@ -23,6 +23,6 @@ def bubble_sort_by(arr)
             end
         end   
         break if not status
-    }   
+    end   
    arr
 end
