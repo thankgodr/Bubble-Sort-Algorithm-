@@ -26,7 +26,3 @@ def bubble_sort_by(arr)
     }   
    arr
 end
-
-print bubble_sort(["hi","hello","hey"])
-
-#print bubble_sort_by(["hi","hello","hey"]) do |right,left|
