@@ -12,7 +12,6 @@ def bubble_sort(arr)
    arr
 end
 
-
 def bubble_sort_by(arr)
     loop do
         status = false
